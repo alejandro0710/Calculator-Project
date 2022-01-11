@@ -1,0 +1,32 @@
+.header {
+  margin-top: 15px;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.screen {
+  position: relative;
+  width: 95%;
+  height: 80px;
+  margin: 0 auto 0 auto;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: end;
+  background: hsl(0, 0%, 93%);
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+
+.p {
+  width: 95%;
+}
+
+.p2 {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}

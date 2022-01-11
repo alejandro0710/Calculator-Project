@@ -1,0 +1,47 @@
+.themes {
+  position: absolute;
+  right: 105px;
+  top: 30px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.containThemes {
+  margin-left: 10px;
+}
+
+.numbers {
+  display: flex;
+}
+
+.number {
+  margin: 0 5px 0 4px;
+}
+
+.themeChange {
+  display: flex;
+
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.themeChange:hover {
+  justify-content: end;
+}
+
+.numberChange {
+  width: 18px;
+  height: 20px;
+  border: 1px solid red;
+}
+
+.ballTheme {
+  background: red;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
