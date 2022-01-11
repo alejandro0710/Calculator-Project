@@ -5,11 +5,11 @@
   "main": "src/index.js",
   "homepage": "http://alejandro0710.github.io/Calculator-Project",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
