@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <h2 className="title">Calculator Project</h2>
+      <h2 className="title">calc </h2>
       <div className="screen">
         <div className="p p1 mathOperation">
           {screen} {result}
